@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  /* */
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  color: royalblue;
+  background-color: lavender;
+  font-size: 26px;
+  font-weight: 700;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+.x-icon {
+  background-color: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.text {
+  margin-bottom: 16px;
+}
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.continue-button {
+  background-color: royalblue;
+  color: #fff;
+  border: 1px solid royalblue;
+}
+button.cancel-button {
+  background-color: #fff;
+  color: royalblue;
+  border: 1px solid #ddd;
+}
